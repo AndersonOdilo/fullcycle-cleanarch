@@ -8,19 +8,9 @@
 
 ## Como rodar o projeto
 
-1. Rodar o comando para iniciar o banco de dados e fila
+1. Rodar o comando para iniciar o banco de dados , rodar migration e iniciar o servidor
 ``` shell
 docker-compose up
-```
-
-2. Rodar as migrations na base de dados
-``` shell
-make migrate
-```
-
-3. Iniciar os serviços
-``` shell
-make server-start
 ```
 
 ## Como testar o projeto
